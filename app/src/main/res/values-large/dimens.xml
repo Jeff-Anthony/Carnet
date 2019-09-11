@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_foto_heigth">500dp</dimen>
+    <dimen name="main_logo_height">200dp</dimen>
+    <dimen name="main_logo_width">500dp</dimen>
+    <dimen name="name_size">60dp</dimen>
+    <dimen name="name_size_puesto">60dp</dimen>
+    <dimen name="barra_height">400dp</dimen>
+    <dimen name="barra_width">500dp</dimen>
+
+</resources>

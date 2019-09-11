@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondoo"
+        />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal"
+       android:layout_margin="30dp">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="@dimen/main_foto_heigth"
+               android:layout_gravity="center"
+              android:layout_centerInParent="true"
+               android:src="@drawable/carnet2"
+               />
+
+
+       </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:layout_margin="30dp"
+          android:layout_weight="1"
+           >
+
+           <ImageView
+               android:id="@+id/carnet"
+               android:layout_width="@dimen/main_logo_width"
+               android:layout_height="@dimen/main_logo_height"
+               android:layout_gravity="center"
+               android:adjustViewBounds="true"
+               android:src="@drawable/logo"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textAlignment="center"
+               android:textColor="#000"
+               android:textSize="@dimen/name_size"
+               android:text="Katherine Adams"
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textAlignment="center"
+               android:textColor="#000"
+               android:textSize="@dimen/name_size_puesto"
+               android:text="Ventas"
+               />
+
+           <ImageView
+               android:id="@+id/barra_code"
+               android:layout_width="@dimen/barra_width"
+               android:layout_height="@dimen/barra_height"
+               android:layout_gravity="center"
+               android:src="@drawable/codigodebarra"/>
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
